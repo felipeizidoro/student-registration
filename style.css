@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("image/Report.jpg");
+}
+main{
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    width: 350px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    text-align:center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    padding-bottom: 10px;
+}
+#name{
+    width: 205px;
+}
+.lastName{
+    padding-bottom: 10px;
+}
+.birth{
+    padding-bottom: 20px;
+}
+#birth{
+    width: 160px;
+}
+.choiceOption{
+    font-weight: 550;
+    padding-bottom: 30px;
+}
+.btn{
+    padding-bottom: 20px;
+}
+.send{
+    padding: 10px;
+    width: 80px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: 0.5s;
+}
+.send:hover{
+    background-color: rgb(22, 14, 73);
+    color: white;
+}

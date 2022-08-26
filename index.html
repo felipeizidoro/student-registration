@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Technology School</title>
+</head>
+
+<body>
+    <main>
+        <h2>Welcome to Technology School</h2>
+        <form class="form">
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder=" Insert your name..." >
+            </div>
+            <div class="lastName">
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder=" Insert your last name..." >
+            </div>
+            <div class="birth">
+                <label for="birth">Year of Birth: </label>
+                <input type="text" name="birth" id="birth" placeholder=" YYYY">
+            </div>
+            <div class="choiceOption">
+                <label for="course">Choose the desired course:</label>
+                <select name="course" id="course">
+                    <option value="options" disabled>Options</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Networks">Networks</option>
+                    <option value="Front end">Front end Developer</option>
+                    <option value="Back end">Back end Developer</option>
+                </select>
+            </div>
+            <div class="btn">
+                <button class="send" type="button" onclick="data()">Send</button>
+            </div>
+        </form>
+        <div class="answer" id="answer">
+
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
